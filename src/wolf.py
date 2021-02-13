@@ -5,7 +5,7 @@ from animal import State, Animal
 from math import sin, cos, pi
 from random import uniform
 
-WOLF_IMAGE = pygame.image.load("../img/wolf.png")
+WOLF_IMAGE = pygame.image.load("./img/wolf.png")
 WOLF_SIZE = 30
 WOLF_IMAGE = pygame.transform.scale(WOLF_IMAGE, (WOLF_SIZE, WOLF_SIZE))
 

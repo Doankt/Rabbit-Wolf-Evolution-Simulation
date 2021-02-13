@@ -13,6 +13,15 @@ class Wolf(Animal):
 	"""Class representing a Wolf in the world"""
 
 	def __init__(self, world, pos: (float, float), speed: float):
+		"""
+		Initializes the Wolf
+
+		Args:
+			world (World): The world
+			pos ( (float, float) ): Starting position
+			speed (float): Wolf speed
+		"""
+		
 		Animal.__init__(self, world, pos, speed)
 		self.sight = 200
 

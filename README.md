@@ -5,7 +5,6 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -16,7 +15,7 @@
   <h3 align="center">Rabbit & Wolf Evolution Simulation</h3>
 
   <p align="center">
-    Closed box evolution simulation 
+    Closed box evolution simulation
     <br />
     <a href="https://github.com/Doankt/Rabbit-Wolf-Evolution-Simulation"><strong>Explore the docs »</strong></a>
     <br />
@@ -29,8 +28,6 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -41,7 +38,7 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-	<li><a href="#design">Design</li>
+ <li><a href="#design">Design</li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -58,14 +55,12 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
 Welcome to my simulation. I wrote this as a test to myself proving that I can develop and design my own system.
 
-This program simulates Grass, Rabbits, and Wolves in an closed box envinroment. Rabbits eat Grass, while Wolves hunt Rabbits. Evolution comes into play when Rabbits and Wolves Reproduce. A child's properties will change on random to simulate genetic variance in offspring.
+This program simulates Grass, Rabbits, and Wolves in a closed box envinroment. Rabbits eat Grass, while Wolves hunt Rabbits. Evolution comes into play when Rabbits and Wolves Reproduce. A child's properties will change on random to simulate genetic variance in offspring.
 
 I challenged myself to follow concepts that I have learned at my time in university and also design that is not _spaghetti code_.
 
@@ -73,13 +68,13 @@ Much of the Animal logic in this project relies on a [Finite State Machine](http
 
 I was also able to demonstrate my knowlege on [Python Threading](https://docs.python.org/3/library/threading.html) by creating statistic tracker threads while the main simulation was running.
 
-
 ### Built With
 
 * [pygame](https://www.pygame.org/news)
 * [matplotlib](https://matplotlib.org/stable/index.html)
 
 ## Design
+
 WORK IN PROGRESS
 
 <!-- GETTING STARTED -->
@@ -96,32 +91,39 @@ A Python installation is necessary for running the simulation
 ### Installation
 
 1. Clone the repo
+
    ```sh
    git clone https://github.com/Doankt/Rabbit-Wolf-Evolution-Simulation
    ```
+
 2. [Create venv (OPTIONAL)](https://docs.python.org/3/library/venv.html)
+
    ```sh
    python3 -m venv /path/to/new/virtual/environment
    ```
+
 3. Install dependencies from project root
-	```sh
-	python3 -m pip install -r requirements.txt
-	```
-	Alternatively if you are using a venv
-	```sh
-	pip install -r requirements.txt
-	```
+
+ ```sh
+ python3 -m pip install -r requirements.txt
+ ```
+
+ Alternatively if you are using a venv
+
+ ```sh
+ pip install -r requirements.txt
+ ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 Run the program with the following command
+
 ```sh
 python evosim.py
 ```
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -139,8 +141,6 @@ Please follow common contribution timeline.
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -148,12 +148,11 @@ Kenneth Doan - kennethdoanor@gmail.com
 
 Project Link: [https://github.com/Doankt/Rabbit-Wolf-Evolution-Simulation](https://github.com/Doankt/Rabbit-Wolf-Evolution-Simulation)
 
-
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
 * [othneildrew's README TEMPLATE](https://github.com/othneildrew/Best-README-Template)
+
 <!-- * []()
 * []() -->
 

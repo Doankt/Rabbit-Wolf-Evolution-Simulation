@@ -104,15 +104,15 @@ A Python installation is necessary for running the simulation
 
 3. Install dependencies from project root
 
- ```sh
- python3 -m pip install -r requirements.txt
- ```
+    ```sh
+    python3 -m pip install -r requirements.txt
+    ```
 
- Alternatively if you are using a venv
+    Alternatively if you are using a venv
 
- ```sh
- pip install -r requirements.txt
- ```
+    ```sh
+    pip install -r requirements.txt
+    ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage

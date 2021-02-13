@@ -7,14 +7,14 @@ from food import Food
 class World():
 	"""Class representing an environment"""
 
-	def __init__(self, srn_sz: (float, float), clock: pygame.time.Clock, screen: pygame.display.Surface):
+	def __init__(self, srn_sz: (float, float), clock: pygame.time.Clock, screen: pygame.Surface):
 		"""
 		Initializes the World
 
 		Args:
 			srn_sz ( (float, float) ): Screen size
 			clock (pygame.time.Clock): pygame Clock
-			screen (pygame.display.Surface): pygame Screen
+			screen (pygame.Surface): pygame Screen
 		"""
 
 		self.running = True

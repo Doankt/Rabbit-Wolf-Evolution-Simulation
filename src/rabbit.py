@@ -6,7 +6,7 @@ from random import uniform
 
 from animal import State, Animal
 
-RABBIT_IMAGE = pygame.image.load("./img/bunny.png")
+RABBIT_IMAGE = pygame.image.load("../img/bunny.png")
 RABBIT_SIZE = 30
 RABBIT_IMAGE = pygame.transform.scale(RABBIT_IMAGE, (RABBIT_SIZE, RABBIT_SIZE))
 

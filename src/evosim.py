@@ -1,12 +1,12 @@
 import sys
 import pygame
 from world import World
-from statistics import StatClump
+from simstats import StatClump
 
 import matplotlib.pyplot as plt
 
-# DEFAULT_SCREEN_SIZE = (800, 600)
-DEFAULT_SCREEN_SIZE = (1280, 720)
+DEFAULT_SCREEN_SIZE = (800, 600)
+# DEFAULT_SCREEN_SIZE = (1280, 720)
 # BG_IMG = pygame.image.load("./img/bg.jpg")
 
 if __name__ == "__main__":

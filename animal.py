@@ -10,7 +10,16 @@ class State(Enum):
 class Animal:
 	"""Class representing Animal in the world"""
 
-	def __init__(self, world, pos: (float, float), speed: float) -> None:
+	def __init__(self, world, pos: (float, float), speed: float):
+		"""
+		Initializes the Animal
+
+		Args:
+			world (World): The world
+			pos ( (float, float) ): Starting position
+			speed (float): Animal speed
+		"""
+
 		self.speed = speed
 		self.pos = pos
 		self.world = world

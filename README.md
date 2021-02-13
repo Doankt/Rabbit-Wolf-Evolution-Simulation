@@ -8,8 +8,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="img/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Doankt">
+    <img src="https://avatars.githubusercontent.com/u/36061217?s=460&u=bd3f2f6eba3bba3356afea59827c6b1bbb4d49ee&v=4" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Rabbit & Wolf Evolution Simulation</h3>

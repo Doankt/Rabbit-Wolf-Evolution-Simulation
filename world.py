@@ -5,8 +5,18 @@ from wolf import Wolf
 from food import Food
 
 class World():
+	"""Class representing an environment"""
 
-	def __init__(self, srn_sz, clock, screen):
+	def __init__(self, srn_sz: (float, float), clock: pygame.time.Clock, screen: pygame.display.Surface):
+		"""
+		Initializes the World
+
+		Args:
+			srn_sz ( (float, float) ): Screen size
+			clock (pygame.time.Clock): pygame Clock
+			screen (pygame.display.Surface): pygame Screen
+		"""
+
 		self.running = True
 
 		self._clock = clock
@@ -33,6 +43,9 @@ class World():
 
 	
 	def step(self) -> None:
+		"""
+		Advances the world by one frame
+		"""
 
 		# Add food every time frame
 		self.runtime += self._clock.get_time()
@@ -54,9 +67,11 @@ class World():
 		# Redraw all entities
 		self._update_screen()
 		
-
-
 	def _update_screen(self) -> None:
+		"""
+		Draws all entities in the world to the screen
+		"""
+
 		for rabbit in self.rabbits:
 			rabbit.draw(self.screen)
 
@@ -66,17 +81,44 @@ class World():
 		for food in self.food:
 			food.draw(self.screen)
 		
-	def in_bounds(self, pos: tuple) -> bool:
+	def in_bounds(self, pos: (float, float)) -> bool:
+		"""
+		Determines if a position is valid in the world
+
+		Args:
+			pos ( (float, float) ): Position
+
+		Returns:
+			bool: True if pos is valid in the world, False otherwise
+		"""
+		
 		return (
 			0 <= pos[0] < self.size[0] and
 			0 <= pos[1] < self.size[1]
 			)
 
 	def _end_condition(self) -> bool:
-		# return len(self.rabbits) <= 0 or len(self.wolves) <= 0
-		return len(self.rabbits) <= 1 or len(self.wolves) <= 0
+		"""
+		Determines if the simulation is completed
 
-	def _random_pos(self) -> (int, int):
+		Returns:
+			bool: True if the world is "complete", False otherwise
+		"""
+
+		return len(self.rabbits) <= 1 or len(self.wolves) <= 0
+		# return len(self.rabbits) <= 0 or len(self.wolves) <= 0
+
+	def _random_pos(self) -> (float, float):
+		"""
+		Returns a random position in the world
+
+		Args:
+			self (World): self
+
+		Returns:
+			(float, float): Tuple representing the position
+		"""
+		
 		return (
 			random.uniform(0, self.size[0]),
 			random.uniform(0, self.size[1])

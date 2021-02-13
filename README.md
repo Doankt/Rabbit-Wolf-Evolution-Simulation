@@ -159,15 +159,15 @@ Project Link: [https://github.com/Doankt/Rabbit-Wolf-Evolution-Simulation](https
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Doankt/Rabbit-Wolf-Evolution-Simulation.svg?style=for-the-badge
 [contributors-url]: https://github.com/Doankt/Rabbit-Wolf-Evolution-Simulation/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Doankt/Rabbit-Wolf-Evolution-Simulation.svg?style=for-the-badge
 [forks-url]: https://github.com/Doankt/Rabbit-Wolf-Evolution-Simulation/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Doankt/Rabbit-Wolf-Evolution-Simulation.svg?style=for-the-badge
 [stars-url]: https://github.com/Doankt/Rabbit-Wolf-Evolution-Simulation/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Doankt/Rabbit-Wolf-Evolution-Simulation.svg?style=for-the-badge
 [issues-url]: https://github.com/Doankt/Rabbit-Wolf-Evolution-Simulation/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Doankt/Rabbit-Wolf-Evolution-Simulation.svg?style=for-the-badge
 [license-url]: https://github.com/Doankt/Rabbit-Wolf-Evolution-Simulation/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/doankt/

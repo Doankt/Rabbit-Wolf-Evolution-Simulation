@@ -8,11 +8,9 @@ class State(Enum):
 	REPRODUCE = 1
 
 class Animal:
-	"""
-	Class representing Animal in the world
-	"""
+	"""Class representing Animal in the world"""
 
-	def __init__(self, world, pos: (int, int), speed: int) -> None:
+	def __init__(self, world, pos: (float, float), speed: float) -> None:
 		self.speed = speed
 		self.pos = pos
 		self.world = world
@@ -91,7 +89,7 @@ class Animal:
 
 		return (foodlist, rabbitlist, wolflist)
 	
-	def eat(self, inc: int) -> None:
+	def eat(self, inc: float) -> None:
 		"""
 		Increments eating food source and adds to hunger
 
@@ -113,7 +111,7 @@ class Animal:
 		Moves Animal in the direction they are facing and slightly changes movement angle
 		"""
 
-		# Set initial move
+		# Proposed move
 		new_x = self.pos[0] + (self.speed * cos(self.movement_angle))
 		new_y = self.pos[1] + (self.speed * sin(self.movement_angle))
 
